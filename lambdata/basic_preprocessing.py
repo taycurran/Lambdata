@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Basic DataFrame Summary Functions
 """
@@ -110,3 +111,9 @@ if __name__ == "__main__":
 #             self.df[key] = self.df[key].replace(list(others), 'Others')
 #             return self.df
 
+=======
+# Data Wrangling Functions
+import pandas as pd
+
+df = pd.read_csv('sample_data/train.csv')
+>>>>>>> 657b52bb3fb79c930f6f40b638a25e996b79f22c
